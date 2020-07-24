@@ -1,0 +1,100 @@
+body {
+    line-height: 1.8em;
+}
+
+section {
+    padding: 100px;
+}
+
+section h1 {
+    line-height: 1em;
+    font-size: 50px;
+}
+
+.split1 img {
+    display: none;
+}
+
+.split2 {
+    width: 100%;
+    padding: 40px;
+}
+
+.split {
+    float: none;
+    width: 100%;
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.left p {
+    width: 100%;
+}
+
+.about .right {
+    float: none;
+}
+
+.article p {
+    width: 100%;
+}
+
+.spliter {
+    float: none;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    header {
+        text-align: center;
+    }
+
+    h2 a {
+        float: none;
+        margin: 20px 0;
+    }
+
+    ul li a {
+        float: none;
+        margin: 20px 0;
+        padding: 5px 10px;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    section h1 {
+        font-size: 40px;
+    }
+
+    section p {
+        font-size: medium;
+    }
+
+    .split2 {
+        padding: 20px;
+    }
+
+    .split2 h2 {
+        line-height: 1.5;
+        padding: 0px;
+    }
+
+    .split2 p {
+        font-size: medium;
+    }
+
+    .about .left h1,
+    .review h1 {
+        line-height: 1.2;
+    }
+
+    .about .right img {
+        width: 300px;
+        height: 200px;
+    }
+}

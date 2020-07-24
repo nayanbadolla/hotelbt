@@ -1,0 +1,285 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Nav Bar(All pages) */
+
+header {
+    background-color: rgb(53 , 52 , 52);
+    padding: 10px;
+    overflow: auto;
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    float: right;
+}
+
+ul li a:hover,
+ul li a.current {
+    background-color: #444444;
+    color: rgb(185, 103, 73);
+}
+
+/* Footer(All pages) */
+
+footer {
+    background-color: rgb(78, 77, 77);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Home */
+
+section {
+    background-image: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 60px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section span {
+    color: rgb(185, 103 , 73);
+}
+
+section button  {
+    background-color: rgb(53 , 52 , 52);
+    border: 1px solid rgb(53, 52, 52);
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+section button:hover {
+    background-color: rgb(185, 103 , 73);
+    border: 1px solid rgb(185, 103 , 73);
+    color: rgb(53, 52, 52);
+}
+
+.split1 img {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.split2 {
+    background-color: rgb(53 , 52 , 52);
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+    float: left;
+}
+
+.split2 h2 {
+    font-size: 30px;
+    padding: 10px 0; 
+}
+
+.split2 h2 span {
+    color: rgb(185, 103 , 73);
+}
+
+.split2 p {
+    font-size: large;
+    line-height: 1.6em;
+    padding-bottom: 20px;
+}
+
+.split2 button {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(53, 52, 52);
+    padding: 10px 20px;
+}
+
+.split2 button:hover {
+    background-color: rgb(185, 103 , 73);
+    border: 1px solid rgb(185, 103 , 73);
+    color: rgb(53, 52, 52);
+}
+
+.split {
+    background-color: white;
+    border: white;
+    color: rgb(53, 52, 52);
+    text-align: center;
+    padding: 55px;
+    width: 33.33%;
+    float: left;
+}
+
+#split4 {
+    background-color: rgb(185, 103 , 73);
+    border: rgb(185, 103 , 73);
+}
+
+.split h2 {
+    font-size: large;
+}
+
+.split p {
+    font-size: medium;
+}
+
+/* About */
+.about {
+    padding: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.left h1 {
+    font-size: 35px;
+} 
+
+.left span {
+    color: rgb(185, 103, 73);
+}
+
+.left p {
+    font-size: 18px;
+    width: 500px;
+}
+
+.right {
+    float: right;
+} 
+
+.right img {
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.review {
+    background-image: url(../img/test-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.review h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.article {
+    background-color: rgb(185, 103, 73);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.article img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+
+.article p {
+    line-height: 1.8em;
+    width: 700px;
+    float: right;
+}
+
+/* Contact */
+
+.frm {
+    padding: 30px;
+    line-height: 1.6em;
+}
+
+.frm h1 {
+    font-size: 40px;
+}
+
+.frm h1 span {
+    color: rgb(185, 103, 73);
+}
+
+.frm1 input {
+    width: 100%;
+    height: 30px;
+}
+
+.frm1 textarea {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    background-color: rgb(53, 52, 52);
+    border: rgb(53, 52, 52);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color:rgb(185, 103, 73);
+    border: rgb(185, 103, 73);
+    color: rgb(53, 52, 52);
+}
+
+.spliter {
+    background-color: rgb(53, 52, 52);
+    border: rgb(53, 52, 52);
+    color: white;
+    text-align: center;
+    padding: 55px;
+    width: 33.33%;
+    float: left;
+} 
+
+.spliter h2 {
+    font-size: large;
+}
+
+.spliter p {
+    font-size: medium;
+}
